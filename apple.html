@@ -1,0 +1,94 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ background: #ffffff;}
+        
+        #wrap{ 
+            width: 914.4px;height: 100000px;
+            position: relative;
+
+            left: -10px;
+            text-align:center; 
+            text-transform:uppercase;
+            background-color: tomato;
+        }
+
+        #header{
+            position: fixed;
+            left:0; right: 0; top:0;
+            
+            display: flex;
+            width: 914.4px; height: 40px;  
+            background: #444444; font-size: 12px;
+
+        }
+
+        #nav{ 
+            top:40px;
+            position:fixed;
+            display: block;
+            left : 0;
+            width: 914.4px; height: 40px;
+            background: #323233; color:#f5f5f7;}
+
+        #nav ul.mylist{
+            list-style: none;
+            float: left;
+        }
+
+        ul.mylist li{
+            list-style-type: none;
+            float: left;
+            margin-left : 3rem;           
+            font-size : 13px;
+        }
+
+        #contents{ 
+            width: 914.4px;height: 1300px; 
+            padding-top: 50px;
+            background : #c2e1f6;
+        }
+
+        #footer{
+            width: 1000px;height: 100px;
+            position: absolute;
+            top: 1350px;
+            background : #f5f5f7;}
+
+        #link{
+            color : #fff;
+            text-decoration: none;
+            display:left; 
+        }
+    </style>
+</head>`
+<body>
+    <div id="wrap">
+        <div id="header">
+            <ul class="mylist">
+                <li><a href="" id=link>교육 할인 스토어 홈</a></li> 
+                <li id =link>|</li>
+                <li><a href="" id=link>스토어 나가기</a></li>
+            </ul>
+        </div>
+        <div id="nav">
+            <ul class ="mylist"><li>(애플마크)</li>
+            <li>Mac</li>
+            <li>iPad</li>
+            <li>iPhone</li>
+            <li>Watch</li>
+            <li>Music</li>
+            <li>고객지원</li>
+            <li>(검색)</li>
+            <li>(장바구니)</li></ul>
+        </div>
+        <main>
+            <div id="contents">contents</div>
+        </main>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>

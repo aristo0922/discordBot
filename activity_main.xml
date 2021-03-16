@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="숫자 입력" ></EditText>
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="숫자입력" ></EditText>
+
+    <Button
+        android:id="@+id/BtnAdd"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더하기" ></Button>
+
+    <Button
+        android:id="@+id/BtnSub"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="빼기" ></Button>
+
+    <Button
+        android:id="@+id/BtnMul"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="곱하기" ></Button>
+
+    <Button
+        android:id="@+id/BtnDiv"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나누기" ></Button>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="계산 결과 : "></TextView>
+
+    /LinearLayout>
